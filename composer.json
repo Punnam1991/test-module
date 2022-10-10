@@ -1,0 +1,26 @@
+{
+    "name": "test/module-helloworld",
+    "description": "",
+
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "Test License",
+    "authors": [
+        {
+          "name": "Test user",
+          "email": "hi@test.com",
+          "homepage": "https://www.test.com",
+          "role": "Leader"
+        }
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\HelloWorld\\": ""
+        }
+    }
+
+}
